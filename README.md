@@ -4,9 +4,11 @@
 
 ### Miércoles 4 de febrero: Del Objeto al Dato Estructurado
 
-09:00 - 10:30 | Teoría y Crítica: Bienvenida y conceptos base. El archivo como práctica cultural. ¿Qué es un dato en humanidades clásicas? (Diferencia entre ver un folio y leer un metadato).
+09:00 - 10:30 | Bienvenida y conceptos base. Conversación sobre sus intereses y el material que prepararon.
 
-10:30 - 12:00 | Taller Tropy: Importación de las 15 imágenes personales. Ejercicio de descripción técnica y narrativa usando Dublin Core.
+10:30 - 11:00 | Descanso
+
+10:30 - 12:00 | Taller Tropy: Importación de las 15 imágenes personales. Ejercicio de descripción técnica y narrativa.
 
 12:00 - 13:00 | Estructura en Baserow: Creación de la base de datos en Baserow. Configuración de columnas (campos).
 
@@ -16,33 +18,35 @@
 
 Tarea: Los profesores deben terminar de describir sus 15 objetos en Tropy, exportar el CSV e importarlo a Baserow. Deben personalizar su base de datos con al menos 3 campos propios de su disciplina (ej: Tipo de soporte, Siglo, Estado de conservación).
 
-16:00 - 17:00 | Puesta en común: Revisión de las bases de datos. Problemas comunes al categorizar lo antiguo en lo digital.
-
 Jueves 5 de febrero: La Expansión (Web Scraping y Limpieza)
-09:00 - 11:00 | Taller de Raspado (No-Code): Uso de la extensión Web Scraper de Chrome. Vamos a raspar un catálogo real (ej. Perseus Project o el catálogo de una biblioteca).
+09:00 - 10:30 | Taller de Raspado: Uso de Google Colab (Python).
 
-11:00 - 13:00 | Taller de Raspado (Nivel Intermedio): Uso de Google Colab (Python). Tú les das el script y ellos aprenden a ejecutarlo para traer 50-100 registros automáticos.
+10:30 - 11: 00 | Descanso
+
+11:00 - 13:00 | Integración y limpieza de datos en Baserow.
 
 13:00 - 14:00 | Almuerzo.
 
 14:00 - 16:00 | TRABAJO AUTÓNOMO II: Integración de Acervos.
 
-Tarea: Los profesores deben realizar un raspado exitoso de una fuente externa relacionada con su tema. Deben "limpiar" esos datos en un Excel/Baserow (unificar formatos de fecha, corregir nombres) y mezclarlos con sus 15 registros iniciales.
+Tarea: Los profesores deben realizar un raspado exitoso de una fuente externa relacionada con su tema. Deben "limpiar" esos datos en un Baserow (unificar formatos de fecha, corregir nombres) y mezclarlos con sus 15 registros iniciales.
 
 16:00 - 17:00 | Ética del dato: Debate sobre derechos de autor, repositorios abiertos y "quién es dueño" de lo que acabamos de raspar.
 
 Viernes 6 de febrero: La Publicación y Soberanía Digital
-09:00 - 11:00 | Infraestructura: Introducción a GitHub. Concepto de "sitio estático". Creación del repositorio y subida de imágenes.
+09:00 - 10:30 | Infraestructura: Introducción a GitHub. Concepto de "sitio estático". Creación del repositorio y subida de imágenes.
 
-11:00 - 13:00 | Montaje: Conexión de la base de datos de Baserow con la plantilla de CollectionBuilder. Primer despliegue de la web.
+10:30 - 11:00 | Descanso
+
+11:00 - 13:00 | Montaje: Conexión de la base de datos de Baserow con la plantilla. Primer despliegue de la web.
 
 13:00 - 14:00 | Almuerzo.
 
 14:00 - 16:00 | TRABAJO AUTÓNOMO III: Curaduría de la Exhibición.
 
-Tarea: Personalizar el sitio web. Deben redactar un texto introductorio que explique el sentido del micro-archivo, configurar la línea de tiempo y el buscador. Asegurarse de que las imágenes carguen correctamente y el sitio sea funcional.
+Tarea: Personalizar el sitio web. Deben redactar un texto introductorio que explique el sentido del micro-archivo. Asegurarse de que las imágenes carguen correctamente y el sitio sea funcional.
 
-16:00 - 17:00 | Cierre: Presentación relámpago de los proyectos (3 min por persona). Conclusiones sobre la autonomía digital y entrega de recursos para continuar.
+16:00 - 17:00 | Cierre: Presentación de los proyectos.
 
 ## Instrucciones generales
 
