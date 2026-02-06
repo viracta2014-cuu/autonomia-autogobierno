@@ -61,10 +61,10 @@ src/
    ↓
 9. Sube código
    ↓
-10. Ejecuta `npm run build`
-    ↓
-11. Publica en GitHub Pages
-    ↓
+10. Hacer commit y push a `main`
+   ↓
+11. GitHub Actions compila y publica
+   ↓
 12. ¡Sitio en vivo! 🎉
 ```
 

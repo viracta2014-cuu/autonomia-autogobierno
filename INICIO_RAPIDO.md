@@ -138,47 +138,12 @@ Si no ves la introducción (después de configurar CMS):
 - Abre la consola (F12)
 - Si dice que `DATOS_SITIO` no está configurada, revisa [CONFIGURAR_CMS.md](CONFIGURAR_CMS.md)
 
-### Paso 11: Publicar en GitHub Pages (15 min)
+### Paso 11: Publicar en GitHub Pages (10 min)
 
-#### A. Crear repositorio en GitHub
-
-1. Ve a https://github.com y inicia sesión (crea cuenta si no tienes)
-2. Haz clic en **"+"** → **"New repository"**
-3. Nombre: `mi-sitio` (o el que prefieras)
-4. Marca **"Public"** (para que sea visible)
-5. Haz clic en **"Create repository"**
-6. **NO** inicialices con README. Déjalo vacío.
-
-#### B. Descargar GitHub Desktop
-
-1. Ve a https://desktop.github.com
-2. Descarga GitHub Desktop
-3. Instálalo
-
-#### C. Clonar y subir
-
-1. En GitHub.com, en tu repositorio, haz clic en **Code** → **Open with GitHub Desktop**
-2. Elige dónde guardar (cualquier carpeta)
-3. Abre esa carpeta con el Explorador de Archivos
-4. **Borra TODO** lo que haya adentro
-5. Copia todos los archivos de la plantilla en esa carpeta
-
-#### D. Publicar
-
-1. Abre GitHub Desktop
-2. Verás muchos cambios (eso es normal)
-3. En el campo "Summary", escribe: `Primera publicación`
-4. Haz clic en **"Commit to main"**
-5. Arriba haz clic en **"Publish branch"**
-
-#### E. Configurar GitHub Pages
-
-1. Ve a tu repositorio en GitHub.com
-2. Ve a **Settings** → **Pages**
-3. En "Source" selecciona **"GitHub Actions"**
-4. Rama: **main**
-5. Carpeta: **/root** ← IMPORTANTE
-6. Haz clic en **"Save"**
+1. Ve a https://github.com y crea un repositorio **público**.
+2. Sube este proyecto a la rama `main` (puedes usar GitHub Desktop o git).
+3. En tu repositorio: **Settings** → **Pages**.
+4. En "Source" selecciona **"GitHub Actions"**.
 
 Espera 2-3 minutos y tu sitio estará en:
 
@@ -188,14 +153,7 @@ https://tuusuario.github.io/mi-sitio
 
 ### 🎉 ¡LISTO!
 
-Tu sitio está en línea. Cada vez que:
-
-1. Agregues datos en Baserow (proyectos o contenido del CMS)
-2. Hagas clic en actualizar en el navegador (o esperes a que se recargue)
-
-Tu sitio mostrará los cambios automáticamente. **No necesitas hacer build ni subir nada a GitHub manualmente.**
-
-GitHub Actions se encarga de todo automáticamente.
+Tu sitio está en línea. Cada vez que hagas `git push` a `main`, GitHub Actions compila y publica automáticamente.
 
 ## Siguiente nivel: Personalización
 

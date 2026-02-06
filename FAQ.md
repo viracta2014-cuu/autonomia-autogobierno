@@ -33,36 +33,35 @@
 
 **Pasos para solucionar:**
 
-1. **¿Hiciste el `yarn build`?**
+1. **¿Subiste los cambios a GitHub?**
 
-   ```bash
-   yarn build
-   ```
+- En GitHub Desktop: Commit → Push
+- O en terminal: `git add . && git commit -m "Deploy" && git push`
 
-   Esto crea la carpeta `dist/` que GitHub Pages publica.
+2. **Verifica la configuración en GitHub**
 
-2. **¿Subiste los cambios a GitHub?**
-   - En GitHub Desktop: Commit → Publish
-   - O en terminal: `git add . && git commit -m "Build" && git push`
+- Ve a tu repositorio en GitHub.com
+- **Settings** → **Pages**
+- "Source" debe ser: **GitHub Actions**
 
-3. **Verifica la configuración en GitHub**
-   - Ve a tu repositorio en GitHub.com
-   - **Settings** → **Pages**
-   - "Source" debe ser: **Deploy from a branch**
-   - "Branch": **main** (o master)
-   - "Folder": **/ (root)** ← IMPORTANTE
+3. **Revisa el workflow**
+
+- Pestaña **Actions**
+- Si está en rojo (❌), abre el log y corrige el error
 
 4. **Espera 3-5 minutos**
-   - A veces GitHub tarda en procesar
-   - Refresca la página (Ctrl + F5)
+
+- A veces GitHub tarda en procesar
+- Refresca la página (Ctrl + F5)
 
 5. **¿Publicas en una subruta?**
-   - Si tu sitio es: `usuario.github.io/nombre-repo`
-   - En `vite.config.js` cambia:
-     ```javascript
-     base: '/nombre-repo/',
-     ```
-     Luego: `npm run build` y sube los cambios
+
+- Si tu sitio es: `usuario.github.io/nombre-repo`
+- En `vite.config.js` cambia:
+  ```javascript
+  base: '/nombre-repo/',
+  ```
+  Luego haz commit y push
 
 ---
 

@@ -169,10 +169,9 @@
    └─ Ver cambios automáticos
 
 4. PUBLICACIÓN
-   ├─ Ejecutar `npm run build`
    ├─ Commitear cambios
    ├─ Hacer git push
-   └─ Esperar 2-3 min en GitHub Pages
+   └─ GitHub Actions compila y publica en 2-3 min
 
 5. VERIFICAR
    └─ Ver sitio en https://usuario.github.io/repo
@@ -248,9 +247,8 @@ Para proyectos grandes      Para aprender y crecer ✅
 - [ ] Ejecuté `npm run dev` y funciona
 - [ ] Personalicé estilos
 - [ ] Cré repositorio en GitHub
-- [ ] Ejecuté `npm run build`
 - [ ] Hice git push
-- [ ] Configuré GitHub Pages
+- [ ] Configuré GitHub Pages (GitHub Actions)
 - [ ] Mi sitio está en línea 🎉
 
 ---

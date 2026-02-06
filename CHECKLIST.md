@@ -59,13 +59,11 @@ Use este checklist para asegurarse que todo está bien configurado antes de empe
 - [ ] Nuevo repositorio creado en GitHub (público)
 - [ ] .gitignore configurado (no sube token)
 - [ ] Código clonado/sincronizado con GitHub Desktop
-- [ ] Ejecuté `npm run build` sin errores
-- [ ] Carpeta `dist/` se creó correctamente
-- [ ] Los archivos se commiteron
-- [ ] Se hizo push a la rama main
+- [ ] Los archivos se commitearon
+- [ ] Se hizo push a la rama `main`
 - [ ] GitHub Pages configurado (Settings → Pages)
-- [ ] Rama seleccionada: **main**
-- [ ] Carpeta seleccionada: **/ (root)**
+- [ ] Source seleccionado: **GitHub Actions**
+- [ ] Revisé que Actions terminó en verde (✅)
 - [ ] Esperé 3-5 minutos
 - [ ] Mi sitio aparece en GitHub Pages
 
@@ -125,10 +123,10 @@ Antes de pedir ayuda, verifica:
    - Los nombres de campos no coinciden
    - Copia exactamente desde Baserow
 
-5. **`npm run build` falla**
-   - Error de sintaxis en JavaScript
-   - Revisa consola para el número de línea
-   - Busca { } o " " que cierren mal
+5. **El workflow de GitHub Actions falla**
+   - Revisa la pestaña Actions y abre el log
+   - Busca errores de sintaxis en JavaScript
+   - Corrige y vuelve a hacer commit y push
 
 6. **Sitio no aparece en GitHub Pages**
    - Espera más tiempo
