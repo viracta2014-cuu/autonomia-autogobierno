@@ -78,7 +78,7 @@ export const BASEROW = {
 export const TABLA_PROYECTOS = {
   // El ID de la tabla en Baserow
   // Cómo conseguirlo: Ve a tu tabla, el URL es /database/[DB_ID]/table/[TABLE_ID]/
-  id: 827042,
+  id: 830007,
 
   // Los nombres de los campos en tu tabla
   // (deben coincidir exactamente con los nombres en Baserow)
